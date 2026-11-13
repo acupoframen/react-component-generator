@@ -1,0 +1,11 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root { color-scheme: light; font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', 'Segoe UI', sans-serif; color: #252b32; background: #477572; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+body { min-width: 320px; min-height: 100vh; background-image: radial-gradient(#ffffff13 .75px, transparent .75px); background-size: 4px 4px; }
+button, input, select, textarea { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+button, a, input, select, textarea { touch-action: manipulation; }
+button:not(:disabled), select { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+:focus-visible { outline: 2px dashed #2448a6; outline-offset: 4px; }
+::selection { background: #f2d675; color: #252b32; }
+a { color: inherit; }
